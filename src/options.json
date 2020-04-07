@@ -1,0 +1,10 @@
+{
+	"type": "object",
+	"properties": {
+	  "imgSource": {
+		"description": "set this option you can write short path",
+		"type": "string"
+	  }
+	},
+	"additionalProperties": true
+  }
