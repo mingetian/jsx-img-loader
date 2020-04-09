@@ -1,6 +1,6 @@
 {
   "name": "jsx-img-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A loader for webpack which using img in react(jsx) is like in HTML",
   "main": "dist/cjs.js",
   "scripts": {
@@ -10,6 +10,9 @@
   "keywords": [
     "webpack"
   ],
+  "repository": "mingetian/jsx-img-loader",
+  "homepage": "https://github.com/mingetian/jsx-img-loader",
+  "bugs": "https://github.com/mingetian/jsx-img-loader/issues",
   "author": "mingetian",
   "license": "ISC",
   "devDependencies": {

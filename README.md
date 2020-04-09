@@ -3,9 +3,11 @@
 - imgSource 可以缩短你代码中使用时候的url长度
 - loader会自动帮你把图片require到项目中。@是必须要添加的前缀 
 ### 安装loader
-npm install @img-loader --save-dev
+npm install jsx-img-loader --save-dev
+
 或者
-yarn add @img-loader --save-dev
+
+yarn add jsx-img-loader --save-dev
 
 ### webpack中配置示例
 ```
