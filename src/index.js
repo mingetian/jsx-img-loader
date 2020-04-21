@@ -15,7 +15,7 @@ function jsxImgLoader(source){
 	if(!imgSource){
 		imgSource = defaultSource;
 	}
-	const rootDir = this.rootContext;
+	const rootDir = this.rootContext.replace(/\\/g,'/');
 	const rootPath = path.resolve(rootDir,imgSource).replace(/\\/g,'/');
 	const reg = /(<[\s\S]*)?(?:'|")@\/?([^'"]*)(png|jpg|jpeg|gif|svg)(?:'|")/g;
 	const newSource = source.replace(reg,(_,b,c,d)=>{
